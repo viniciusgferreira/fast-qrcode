@@ -5,12 +5,14 @@ Tasks to implement on the app.
 [x] Add the input form area
 [x] Input - link URL to QR code
 [x] Generate button
-[ ] Find the fastest way to generate the output qr code
-[ ] Show the output QR code after submission
-[ ] Create a "new QR code" button to restart
-[ ] Create a user interface with a Box to contain the input form
+[x] Find the fastest way to generate the output qr code
+[x] Show the output QR code after submission
 [ ] Add a download button
 [ ] Make the app deliver the QR Code as image.jpg to user for download
+[ ] Create a user interface with a Box to contain the input form
+[ ] Add Style to animation button
+[ ] Add animation to generate button
+
 
 ## Features to improve UX
 [ ] Explore other options of generating the output qr code

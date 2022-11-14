@@ -9,15 +9,18 @@
     <script src='js/main.js'></script>
 </head>
 <body>
-    <h1> Fast QR Code </h1>
-    
+    <h1> Fast QR Code </h1>    
     <div class="container">
             <input type="text" id="inputUrl" name="url" placeholder="Enter your URL here">
             <button type="button" onclick="generateQRcode()">Generate</button>
         
         <div id="qr-result-area">
-            <div id="qr-code"></div>
-            <div id="download"></div>
+            <div id="qr-code-div">
+                <img id="qr-code-img"src="">
+            </div>
+            <div id="download">
+            
+            </div>
 
         </div>
         

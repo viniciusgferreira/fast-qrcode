@@ -7,8 +7,8 @@ Tasks to implement on the app.
 [x] Generate button
 [x] Find the fastest way to generate the output qr code
 [x] Show the output QR code after submission
-[ ] Add a download button
-[ ] Make the app deliver the QR Code as image.jpg to user for download
+[x] Add a download button
+[x] Make the app deliver the QR Code as image.jpg to user for download
 [ ] Create a user interface with a Box to contain the input form
 [ ] Add Style to animation button
 [ ] Add animation to generate button

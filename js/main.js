@@ -1,10 +1,7 @@
 function generateQRcode () {
-    //GENERATE CODE
+    //GENERATE CODE VIA API
     let url = "https://api.qrserver.com/v1/create-qr-code/?data=" + document.getElementById("inputUrl").value + "&format=jpeg";
-    let qrImg = document.getElementById("qr-code-img");
-    qrImg.src = url;
-
-    const requisicao = fetch (url)
+    fetch (url)
         .then(response => {
             return response.blob();
         })
@@ -12,17 +9,21 @@ function generateQRcode () {
             console.log(myBlob);
             let blobUrl = URL.createObjectURL(myBlob);
             console.log("bloburl: " + blobUrl);
+            
+            //RENDER IMG QR CODE
+            let imgResult= document.createElement("img");
+            imgResult.src = blobUrl;
+            imgResult.id = "img-qr-code";
+            const imgOld = document.getElementById("img-qr-code");
+            imgOld.parentNode.replaceChild(imgResult, imgOld);
 
-            let a = document.createElement("a");
-            a.href = blobUrl;
-            a.innerText = "Download";
-            a.download = "qr-code.jpeg";
-            document.getElementById("download").appendChild(a);
+            //DOWNLOAD LINK
+            let newLink = document.createElement("a");
+            newLink.href = blobUrl;
+            newLink.innerText = "Download";
+            newLink.download = "qr-code.jpeg";
+            newLink.id = "download-button";
+            let oldLink = document.getElementById("download-button")
+            document.getElementById("download-buttons-area").replaceChild(newLink, oldLink);
         })
-        
-
-    
-    
-
-    console.log(requisicao);
 }

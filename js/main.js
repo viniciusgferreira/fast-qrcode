@@ -6,9 +6,7 @@ function generateQRcode () {
             return response.blob();
         })
         .then (myBlob => {
-            console.log(myBlob);
             let blobUrl = URL.createObjectURL(myBlob);
-            console.log("bloburl: " + blobUrl);
             
             //RENDER IMG QR CODE
             let imgResult= document.createElement("img");

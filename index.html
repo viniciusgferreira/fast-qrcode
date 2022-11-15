@@ -21,16 +21,18 @@
         </header>
         <div class="container">
             <div class="input-area">
-                <input type="text" id="inputUrl" name="url" placeholder="Enter your URL here">
-                <button type="button" onclick="generateQRcode()">Generate</button>
+                <label for="inputUrl">Your URL:</label><br>
+                <input type="text" id="inputUrl" name="url" placeholder="https://fast-qrcode.com">
+                <button type="button" id="generate-button" onclick="generateQRcode()">Generate</button>
             </div>
             <div class="output-area">
-                <div id="qr-code">
+                <div class="img-qr" id="qr-code">
                     <!-- image qr code here  -->
                     <img id="img-qr-code" src="https://api.qrserver.com/v1/create-qr-code/?data=https://yoururl.com">
                 </div>
                 <div id="download-buttons-area">
-                    <a id="download-button"></a>
+                    <!--Download Button here-->
+                    <a href="#" download="qr-code.jpeg" id="download-button">Download</a>
                 </div>
                 
             </div>

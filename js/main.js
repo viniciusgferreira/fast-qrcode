@@ -21,6 +21,7 @@ function generateQRcode () {
             newLink.innerText = "Download";
             newLink.download = "qr-code.jpeg";
             newLink.id = "download-button";
+            newLink.className = "btn btn-primary"
             let oldLink = document.getElementById("download-button")
             document.getElementById("download-buttons-area").replaceChild(newLink, oldLink);
         })

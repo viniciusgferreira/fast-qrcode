@@ -10,8 +10,8 @@ Tasks to implement on the app.
 [x] Add a download button
 [x] Make the app deliver the QR Code as image.jpg to user for download
 [x] Create a user interface with a Box to contain the input form
-[ ] Add Style to generate button
-[ ] Add animation to generate button
+[x] Add Style to generate button
+[x] Add animation to generate button
 [ ] Add animation to New QR Code generated
 
 

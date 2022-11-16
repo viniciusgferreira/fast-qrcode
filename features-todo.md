@@ -9,7 +9,7 @@ Tasks to implement on the app.
 [x] Show the output QR code after submission
 [x] Add a download button
 [x] Make the app deliver the QR Code as image.jpg to user for download
-[ ] Create a user interface with a Box to contain the input form
+[x] Create a user interface with a Box to contain the input form
 [ ] Add Style to animation button
 [ ] Add animation to generate button
 

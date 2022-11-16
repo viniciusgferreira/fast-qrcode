@@ -9,33 +9,33 @@
     <script src='js/main.js'></script>
 </head>
 <body>
-        <header>
-            <div class="logo-title">
-                <h1> Fast QR Code </h1>   
-            </div>
-            <div class="menu-nav">
-                <a class="menu-item" href="#">About</a>
-                <a class="menu-item" href="#">Author</a>
-                <a class="menu-item" href="#">Source</a>
-            </div>
-        </header>
-        <div class="container">
-            <div class="input-area">
-                <label for="inputUrl">Your URL:</label><br>
-                <input type="text" id="inputUrl" name="url" placeholder="https://fast-qrcode.com">
-                <button type="button" id="generate-button" onclick="generateQRcode()">Generate</button>
-            </div>
-            <div class="output-area">
-                <div class="img-qr" id="qr-code">
-                    <!-- image qr code here  -->
-                    <img id="img-qr-code" src="https://api.qrserver.com/v1/create-qr-code/?data=https://yoururl.com">
-                </div>
-                <div id="download-buttons-area">
-                    <!--Download Button here-->
-                    <a href="#" download="qr-code.jpeg" id="download-button">Download</a>
-                </div>
-                
-            </div>
+    <header>
+        <div class="logo-title">
+            <h1> Fast QR Code </h1>   
         </div>
+        <div class="menu-nav">
+            <a class="menu-item" href="#">About</a>
+            <a class="menu-item" href="#">Author</a>
+            <a class="menu-item" href="#">Source</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="input-area">
+            <label for="inputUrl">Your URL:</label><br>
+            <input type="text" id="inputUrl" name="url" placeholder="https://fast-qrcode.com">
+            <button type="button" id="generate-button" onclick="generateQRcode()">Generate</button>
+        </div>
+        <div class="output-area">
+            <div class="img-qr" id="qr-code">
+                <!-- image qr code here  -->
+                <img id="img-qr-code" src="https://api.qrserver.com/v1/create-qr-code/?data=https://yoururl.com">
+            </div>
+            <div id="download-buttons-area">
+                <!--Download Button here-->
+                <a href="#" download="qr-code.jpeg" id="download-button">Download</a>
+            </div>
+            
+        </div>
+    </div>
 </body>
 </html>

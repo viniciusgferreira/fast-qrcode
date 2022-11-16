@@ -10,12 +10,13 @@ Tasks to implement on the app.
 [x] Add a download button
 [x] Make the app deliver the QR Code as image.jpg to user for download
 [x] Create a user interface with a Box to contain the input form
-[ ] Add Style to animation button
+[ ] Add Style to generate button
 [ ] Add animation to generate button
+[ ] Add animation to New QR Code generated
 
 
 ## Features to improve UX
-[ ] Explore other options of generating the output qr code
+[x] Explore other options of generating the output qr code
 [ ] Add more input formats (contact info, e-mail, wifi, instagram, twitter, music, pdf, file)
 [ ] Make the QR code automatically (without submit button)
 [ ] Create Visual Frames for the output code (example: SCAN ME text)

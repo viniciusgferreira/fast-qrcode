@@ -40,7 +40,7 @@ header {
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
-
+    
 }
 
 .input-area {
@@ -61,16 +61,27 @@ header {
     width: fit-content;
     height: fit-content;
     
- }
-
-#inputUrl {
-    width: 70%;
-    display: inline-block;
 }
 
-label {
-    font-size: 80%;
-    font-weight: 700;
-    margin-bottom: 0;
-    color: #6f787f;
+ 
+ #inputUrl {
+     width: 70%;
+     display: inline-block;
+    }
+    
+    label {
+        font-size: 80%;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: #6f787f;
+    }
+
+img {
+    animation-name: update;
+    animation-duration: 0.3s;
+    border: 10px solid #fff;
 }
+    @keyframes update {
+       from {border: 10px none #fff;}
+       to {border: 10px solid #0069D9;}
+    }

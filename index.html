@@ -22,10 +22,12 @@
     </header>
     <div class="box">
         <div class="input-area">
+            <form action="#">
             <label for="inputUrl">Your URL:</label><br>
-            <input class="form-control" type="text" id="inputUrl" name="url" placeholder="https://fast-qrcode.com">
-            <button class="btn btn-success" type="button" id="generate-button" onclick="generateQRcode()">Generate</button>
-        </div>
+            <input class="form-control" required type="text" id="inputUrl" name="url" placeholder="https://fast-qrcode.com">
+            <button class="btn btn-success" type="submit" id="generate-button" onclick="generateQRcode()">Generate</button>
+        </form>
+    </div>
         <div class="output-area">
             <div class="img-qr" id="qr-code">
                 <!-- image qr code here  -->

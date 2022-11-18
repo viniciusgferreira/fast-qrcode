@@ -23,4 +23,4 @@ Tasks to implement on the app.
 [ ] Create Visual Frames for the output code (example: SCAN ME text)
 [ ] Add info about QR codes
 [ ] Add a "how to"
-[ ] Responsive for Mobile
+[x] Responsive for Mobile

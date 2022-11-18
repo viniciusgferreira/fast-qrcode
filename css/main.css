@@ -12,6 +12,44 @@ header {
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 600px) {
+    header {
+      display: block!important;
+    }
+
+    .box {
+        display: block;
+        width: 100%!important;
+        grid-template-columns: min-content!important;
+        padding: 10px 20px 30px 20px;
+        justify-content: center;
+    }
+
+    .output-area {
+        height: auto!important;
+        border-radius: 0.25rem;
+        padding: 10px;
+    }
+    #inputUrl {
+        width: 100%!important;
+        margin: 10px auto;
+    }
+    .input-area {
+        padding: 0!important;
+    }
+    #download-button {
+        display: block!important;
+    }
+    #generate-button {
+        margin: 0px auto 10px auto!important;
+        width: -webkit-fill-available;
+    }
+    .img-qr {
+        margin: 0!important;
+    }
+
+  }
+
 .logo-title {
     display: flex;
     justify-content: center;
